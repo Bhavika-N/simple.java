@@ -1,10 +1,10 @@
-class Bhavika{
+class Details{
 	String Name;
 	String AadharNumber;
 	String qualification;
 	String State;
 	
-	Bhavika(String Name,String AadharNumber,String qualification,String State){
+	Details(String Name,String AadharNumber,String qualification,String State){
 		this.Name=Name;
 		this.AadharNumber=AadharNumber;
 		this.qualification=qualification;
@@ -21,8 +21,8 @@ public void display(){
 
 public class DetailsOfStudent {
 	public static void main(String[] args) {
-		Bhavika bhavikaobj =new Bhavika("Bhavika N","1234567","engineering","raichur");
-		bhavikaobj.display();
+		Details obj =new Details("Butter N","1234567","engineering","Pune");
+		obj.display();
 	}
 
 }
